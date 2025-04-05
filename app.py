@@ -1,3 +1,11 @@
+import sys
+import os
+print("Current path:", os.getcwd())
+print("Python path:", sys.path)
+
+
+
+
 import streamlit as st
 from agents import advisor_agent, market_agent, weather_agent, recommender_agent
 
